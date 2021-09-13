@@ -358,6 +358,7 @@ textarea {
 .form-policy-label {
   display: flex;
   align-items: center;
+  color: var(--sub-text-color);
 }
 .form__policy {
   -webkit-appearance: none;
