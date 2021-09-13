@@ -486,6 +486,57 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="modal__form form" action="#" method="get">
+          <h1 class="modal__header">Оставьте свои данные, мы вам перезвоним</h1>
+          <div class="form-field">
+            <label class="form-label">
+              Имя
+              <input class="form__item" type="text" name="name" required />
+              <svg class="form__modal-icon" height="18" width="18">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </label>
+          </div>
+          <div class="form-field">
+            <label class="form-label">
+              Телефон
+              <input class="form__item" type="tel" name="tel" required />
+              <svg class="form__modal-icon" height="18" width="18">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>
+            </label>
+          </div>
+          <div class="form-field">
+            <label class="form-label">
+              Почта
+              <input class="form__item" type="email" name="post" required />
+              <svg class="form__modal-icon" height="18" width="18">
+                <use href="./images/icons.svg#icon-post"></use>
+              </svg>
+            </label>
+          </div>
+          <div class="form-field">
+            <label class="form-label">
+              Комментарий
+              <textarea
+                class="form__item comment"
+                name="comment"
+                placeholder="Введите текст"
+              ></textarea>
+            </label>
+          </div>
+          <div class="form-field">
+            <label class="form-policy-label">
+              <input class="form__policy" type="checkbox" name="policy" required />
+              <span class="form__policy-check"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="form__link" href="#" target="_blank" rel="noopener noreferrer">
+                Условия договора
+              </a>
+            </label>
+          </div>
+          <button class="form__modal-btn" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
